@@ -94,14 +94,14 @@ int main()
   // População
 if (populacao1 > populacao2)
 {
-    printf("Carta 1 - %s: %d\n", nomeCidade1, populacao1);
-    printf("Carta 2 - %s: %d\n", nomeCidade2, populacao2);
+    printf("Carta 1 - %s: %lu\n", nomeCidade1, populacao1);
+    printf("Carta 2 - %s: %lu\n", nomeCidade2, populacao2);
     printf("Resultado: %s tem maior população.\n\n", nomeCidade1);
 }
 else
 {
-    printf("Carta 1 - %s: %d\n", nomeCidade1, populacao1);
-    printf("Carta 2 - %s: %d\n", nomeCidade2, populacao2);
+    printf("Carta 1 - %s: %lu\n", nomeCidade1, populacao1);
+    printf("Carta 2 - %s: %lu\n", nomeCidade2, populacao2);
     printf("Resultado: %s tem maior população.\n\n", nomeCidade2);
 }
 
